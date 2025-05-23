@@ -1,0 +1,22 @@
+# LLM Chat Tool Test Results
+
+## Usage Examples
+
+```bash
+# Run the one-off chat
+python utils/one_off_chat.py
+
+# Run the contextual chat
+python utils/conversation.py
+```
+
+## Test Results
+
+```csv
+question,response
+What are the symptoms of gout?,[ERROR] API request failed: 402 Client Error: Payment Required for url: https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta
+How is gout diagnosed?,[ERROR] API request failed: 402 Client Error: Payment Required for url: https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta
+What treatments are available for gout?,[ERROR] API request failed: 402 Client Error: Payment Required for url: https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta
+What lifestyle changes can help manage gout?,[ERROR] API request failed: 402 Client Error: Payment Required for url: https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta
+What foods should be avoided with gout?,[ERROR] API request failed: 402 Client Error: Payment Required for url: https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta
+```
